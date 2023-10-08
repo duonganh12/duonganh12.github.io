@@ -1,0 +1,80 @@
+body{
+    background-color: #D5D5D5;
+    font-family: system-ui;
+}
+.container{
+    background-color: #E9E7EA;
+    width:850px;
+    max-width: 80%;
+    margin:auto;
+    padding:50px;
+    box-shadow: 0 10px 50px #858585;
+    display: grid;
+   grid-template-columns: 30% 65%;
+   column-gap: 5%; 
+   row-gap: 30px;
+}
+
+.avatar img{
+    width:100px;
+    height:100px;
+    object-fit: cover;
+    border-radius: 40%;
+}
+.avatar{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.name{
+    padding-left: 40px;
+    border-left:1px solid #000;
+}
+.name h1{
+    font-weight: 300;
+    font-size: xxx-large;
+    margin:0px 0 5px ;
+}
+.name .specialize{
+    margin:0;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.info ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    line-height: 30px;
+} 
+
+.target{
+    padding-left: 30px;
+    border-left: 1px solid #000;
+}
+.information{
+    text-align: right;
+}
+
+.Education{
+    margin:0;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.skills{
+    margin-top:  50px;
+}
+.information ul{
+    padding:0;
+    margin: 0;
+list-style: none;
+}
+.information li{
+    padding:10px 0;
+}
+.experience{
+    padding-left: 30px;
+    text-align: justify;
+    border-left: 1px solid #000;
+}
